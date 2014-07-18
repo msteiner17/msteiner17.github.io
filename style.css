@@ -1,0 +1,18 @@
+body{font-family: 'Amatic SC', cursive;}
+h1{
+	color:red;
+	font-size: 45px
+}
+h2{
+	font-size: 30px
+}
+p{ font-size: 25px
+}
+.container{
+	text-align: center;
+}
+
+.pics{
+	display: block;
+	margin: 0 auto;
+}
