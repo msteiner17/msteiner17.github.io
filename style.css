@@ -1,12 +1,24 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+
 body{font-family: 'Amatic SC', cursive;}
 h1{
 	color:red;
-	font-size: 45px
+	font-size: 60px
 }
 h2{
-	font-size: 30px
+	font-size: 20px
 }
-p{ font-size: 25px
+p{ font-size: 35px
 }
 .container{
 	text-align: center;
@@ -15,4 +27,41 @@ p{ font-size: 25px
 .pics{
 	display: block;
 	margin: 0 auto;
+	width: 66%;
 }
+
+
+.click-prompt{
+top: 500px;
+position: relative;
+color: white;
+font-size: 20px;
+visibility:hidden;
+	}
+
+
+
+.rapper:hover .click-prompt{
+	visibility: visible;
+}
+
+#click{
+top: 400px;
+position: relative;
+color: white;
+font-size: 20px;
+visibility:hidden;
+	}
+
+
+
+#rap:hover #click{
+	visibility: visible;
+}
+
+/*.random{
+	background: -webkit-radial-gradient(circle, pink 10%, yellow 20%, salmon 50% , coral 40%);
+	width: 300px;
+	height:500px ;
+}*/
+
