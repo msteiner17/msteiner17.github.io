@@ -32,12 +32,13 @@ p{ font-size: 35px
 
 
 .click-prompt{
-top: 500px;
+top: 435px;
 position: relative;
 color: white;
 font-size: 20px;
-visibility:hidden;
-	}
+visibility: hidden;
+z-index: 6;
+}
 
 
 
@@ -46,12 +47,13 @@ visibility:hidden;
 }
 
 #click{
-top: 400px;
+top: 340px;
 position: relative;
 color: white;
 font-size: 20px;
-visibility:hidden;
-	}
+visibility: hidden;
+z-index: 6;
+}
 
 
 
